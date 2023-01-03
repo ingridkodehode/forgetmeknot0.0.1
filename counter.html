@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Oxygen:wght@300&family=Raleway:ital,wght@1,200&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/93e8e44802.js" crossorigin="anonymous"></script>
+  <body>
+    <div class="content">
+        <div id="stitch">
+            <h1>Stitch</h1>
+            <button id="stitch-decr-btn" onclick="decrease()"><i class="fa-solid fa-circle-minus"></i></button>
+            <h2 id="count-el">0</h2>
+            <button id="stitch-incr-btn" onclick="increment()"><i class="fa-solid fa-circle-plus"></i></button>
+            <button id="stitch-save-btn" onclick="save()"><i class="fa-solid fa-circle-down"></i></button>
+            <p id="save-el">Saved</p>
+        </div>
+    <div class="row">
+      <h1>Row</h1>
+      <h2 id="count-el">0</h2>
+      <button id="incr-btn" onclick="increment()"><i class="fa-solid fa-circle-plus"></i></button>
+      <button id="decr-btn" onclick="decrease()"><i class="fa-solid fa-circle-minus"></i></button>
+      <button id="save-btn" onclick="save()"><i class="fa-solid fa-circle-down"></i></button>
+      <p id="save-el">Saved</p>
+    </div>
+    <div class="increase">
+      <h1>Increase</h1>
+      <h2 id="count-el">0</h2>
+      <button id="incr-btn" onclick="increment()"><i class="fa-solid fa-circle-plus"></i></button>
+      <button id="decr-btn" onclick="decrease()"><i class="fa-solid fa-circle-minus"></i></button>
+      <button id="save-btn" onclick="save()"><i class="fa-solid fa-circle-down"></i></button>
+      <p id="save-el">Saved</p>
+    </div>
+    <div class="decrease">
+      <h1>Decrease</h1>
+      <h2 id="count-el">0</h2>
+     <button id="incr-btn" onclick="increment()"><i class="fa-solid fa-circle-plus"></i></button>
+      <button id="decr-btn" onclick="decrease()"><i class="fa-solid fa-circle-minus"></i></button>
+      <button id="save-btn" onclick="save()"><i class="fa-solid fa-circle-down"></i></button>
+      <p id="save-el">Saved</p>
+    </div>
+    <div class="addcount">
+      <h1>Add Counter</h1>
+    <input type="text" id="input-el" />
+    <button id="input-btn">ADD</button>
+    <button id="delete-btn">DELETE</button>
+    <ul id="ul-el"></ul>
+    </div>
+    </div>
+  <script src="index.js"></script>
+  </body>
+</html>
